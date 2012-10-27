@@ -1,0 +1,8 @@
+SoapUI-Web is a Generic SOAP Client written in Jquery only.
+
+Since this is Javascript only, most browsers will not allow direct access to SOAP based web services (CROSS Domain Policy),
+I have included a small Java Servlet which will work as proxy for all GET and POST Requests. To use, deploy the war file and access index.html.
+
+Alternatively you can use the SoapUI.html, which works without any proxy class. 
+To use this in chrome for testing purposes only, use  --allow-file-access-from-files --disable-web-security flags to open chrome. This is not recommended.
+
